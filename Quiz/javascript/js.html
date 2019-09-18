@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Code tutor quiz</title>
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Late" rel="stylesheet">
+<script src="main.js"></script>
+</head>
+<body>
+<h1 style="font-family:verdena;">JAVASCRIPT QUIZ</h1>
+<form id="quiz" name="quiz">
+<h2>Ques1. Inside which HTML element do we put the JavaScript?</h2>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question1" value="scripting">scripting<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question1" value="script">script<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question1" value="javascript">javascript<br></p>
+<h2>Ques2. Where is the correct place to insert a JavaScript?</h2>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question2" value="head section">head section<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question2" value="body section">body section<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question2" value="both">both<br></p>
+<h2>Ques3. The external JavaScript file must contain the script tag.</h2>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question3" value="true">true<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question3" value="false">false<br></p>
+<h2>Ques4. How do you create a function in JavaScript?</h2>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question4" value="function:myFunction()">function:myFunction()<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question4" value="function myFunction()">function myFunction()<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question4" value="function=myFunction()"> function=myFunction()<br></p>
+<h2>Ques5. How to write an IF statement in javascript?</h2>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question5" value="if i=5 then">if i=5 then;<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question5" value="if i==5 then">if i==5 then<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question5" value="if(i==5)">if(i==5)<br></p>
+<h2>Ques6. How do you call a function named "myFunction"?</h2>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question6" value="call myFunction()">call myFunction()<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question6" value="myFunction()">myFunction()<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question6" value="call function myFunction()">call function myFunction()<br></p>
+<h2>Ques7. How to write an IF statement for executing some code if "i" is NOT equal to 5?</h2>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question7" value="if i=!5 then">if i=!5 then<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question7" value="if(i!=5)">if(i!=5)<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question7" value="if(i<>5)">if(i< >5)<br></p>
+<h2>Ques8. How does a WHILE loop start?</h2>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question8" value="while(i<=5)">while(i<=5)<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question8" value="while(i<=5;i++)">while(i<=5;i++)<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question8" value="while i=1 to 10">while i=1 to 10<br></p>
+<h2>Ques9. Which event occurs when the user clicks on an HTML element?</h2>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question9" value="onclick">onclick<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question9" value="onmouseover">onmouseover<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question9" value="onchange">onchange<br></p>
+<h2>Ques10. Javascript is the same as Java?</h2>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question10" value="true">true<br></p>
+<p style="font-size: 130%;"><input type="radio" id="mc" name="question10" value="false">false<br></p>
+<style type="text/css">
+    	#button
+    	{
+    		font-size: 23px;
+    		padding: 15px 32px;
+    		margin: 4px 2px;
+    		cursor: pointer;
+    		text-align: center;
+    	}
+    </style>
+
+<input id="button" type="button" value="I'm finished!" onclick="check();">
+</form>
+<div id="after_submit">
+<p id="number_correct"></p>
+</div>
+
+</body>
+</html>

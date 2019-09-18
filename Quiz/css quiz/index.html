@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>oops info technology quiz</title>
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Late" rel="stylesheet">
+<script src="main.js"></script>
+</head>
+<body>
+<h1 style="font-family: verdena;">CSS QUIZ</h1>
+<form id="quiz" name="quiz">
+
+	<h2>Q1: What is the full form of CSS?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question1" value="Cascading Style Sheets">Cascading Style Sheets<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question1" value="Computer Style Sheets">Computer Style Sheets<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question1" value="Colorful Style Sheets">Colorful Style Sheets<br></p>
+
+    <h2>Q2: What is the default value of the position property?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question2" value="static">static<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question2" value="fixed">fixed<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question2" value="absolute">absolute<br></p>
+
+    <h2>Q3: Which HTML attribute is used to define an inline style styles?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question3" value="style">style<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question3" value="font">font<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question3" value="class">class<br></p>
+
+    <h2>Q4: How do you select all p elements inside a div element?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question4" value="div p">div p<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question4" value="div.p">div.p<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question4" value="div+p">div+p<br></p>
+
+    <h2>Q5: How do you insert a comment in a CSS file?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question5" value="/*this is a comment*/">/*this is a comment*/<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question5" value="//this is a comment">//this is a comment<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question5" value="//this is acomment//">//this is acomment//<br></p>
+
+    <h2>Q6: Which property is used to change the background color?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question6" value="color">color<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question6" value="bgcolor">bgcolor<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question6" value="background-color">background-color<br></p>
+
+    <h2>Q7: Which CSS property controls the text size?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question7" value="text-style">text-style<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question7" value="font-style">font-style<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question7" value="font-size">font-size<br></p>
+
+    <h2>Q8: How do you make the text bold?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question8" value="style:bold;">style:bold;<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question8" value="font-weight:bold;">font-weight:bold;<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question8" value="font-bold;">font:bold;<br></p>
+
+    <h2>Q9: Which property is uesd to change the left margin of an element?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question9" value="padding-left">padding-left<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question9" value="margin-left">margin-left<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question9" value="indent">indent<br></p>
+
+    <h2>Q10: How do you select an element with id "demo"?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question10" value=".demo">.demo<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question10" value="#demo">#demo<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question10" value="*demo">*demo<br></p>
+
+    <style type="text/css">
+    	#button
+    	{
+    		font-size: 23px;
+    		padding: 15px 32px;
+    		margin: 4px 2px;
+    		cursor: pointer;
+    		text-align: center;
+    	}
+    </style>
+
+
+
+
+    <input id="button"  type="button" value="I'm finished!" onclick="check();">
+</form>
+<div id="after_submit">
+<p id="number_correct"></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+function check()
+{
+var question1=document.quiz.question1.value;
+var question2=document.quiz.question2.value;
+var question3=document.quiz.question3.value;
+var question4=document.quiz.question4.value;
+var question5=document.quiz.question5.value;
+var question6=document.quiz.question6.value;
+var question7=document.quiz.question7.value;
+var question8=document.quiz.question8.value;
+var question9=document.quiz.question9.value;
+var question10=document.quiz.question10.value;
+var correct=0;
+if(question1=="script")
+{correct++;
+}
+if(question2=="both")
+{
+correct++;
+}
+if(question3=="false")
+{
+correct++;
+}
+if(question4=="function myFunction()")
+{
+	correct++;
+}
+if(question5=="if(i==5)")
+{
+correct++;
+}
+if(question6=="myFunction()")
+{
+correct++;
+}
+if(question7=="if(i!=5)")
+{correct++;
+}
+if(question8=="while(i<=5)")
+{
+correct++;
+}
+if(question9=="onclick")
+{
+correct++;
+}
+if(question10=="false")
+{
+correct++;
+}
+document.getElementById("after_submit").style.visibility="visible";
+document.getElementById("number_correct").innerHTML="<h2>you got"+" "+correct+" "+"correct.</h2>";
+}

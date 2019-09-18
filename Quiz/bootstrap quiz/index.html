@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>oops info technology quiz</title>
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Late" rel="stylesheet">
+<script src="main.js"></script>
+</head>
+<body>
+<h1 style="font-family: verdena;">BOOTSTRAP	QUIZ</h1>
+<form id="quiz" name="quiz">
+
+	<h2>Q1: Bootstrap 3 is mobile-first</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question1" value="False">False<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question1" value="True">True<br></p>
+    
+
+    <h2>Q2: Which class provide a responsive fixed width container?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question2" value=".container">.container<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question2" value=".container-fluid">.container-fluid<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question2" value=".container-fixed">.container-fixed<br></p>
+
+    <h2>Q3: The Bootstrap grid system is based on how many columns?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question3" value="9">9<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question3" value="3">3<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question3" value="12">12<br></p>
+
+    <h2>Q4: Which class shapes an image to a circle?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question4" value=".img-round">.img-round<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question4" value=".img-rounded">.img-rounded<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question4" value=".img-circle">.img-circle<br></p>
+
+    <h2>Q5: Whic class is used to create a big box for calling extra attention?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question5" value=".jumbotron">.jumbotron<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question5" value=".container">.container<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question5" value=".bigbox">.bigbox<br></p>
+
+    <h2>Q6: Which button class is used to create a large button?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question6" value=".btn-large">.btn-large<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question6" value=".btn-lg">.btn-lg<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question6" value=".btn-l">.btn-l<br></p>
+
+    <h2>Q7: Which class is used to create a button group?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question7" value=".button-group">.button-group<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question7" value=".btn-group">.btn-group<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question7" value=".group-btn">.group-btn<br></p>
+
+    <h2>Q8: Which class is used tp create a badge?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question8" value=".badge">.badge<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question8" value=".tag">.tag<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question8" value=".label">.label<br></p>
+
+    <h2>Q9: Which plugin is used to create a tooltip?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question9" value="Modal">Modal<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question9" value="Tooltip">Tooltip<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question9" value="Popup">Popup<br></p>
+
+    <h2>Q10: The Bootstrap grid system works across multiple devices?</h2>
+	<p style="font-size: 130%;"><input type="radio" id="mc" name="question10" value="False">False<br></p>
+    <p style="font-size: 130%;"><input type="radio" id="mc" name="question10" value="True">True<br></p>
+    
+
+    <style type="text/css">
+    	#button
+    	{
+    		font-size: 23px;
+    		padding: 15px 32px;
+    		margin: 4px 2px;
+    		cursor: pointer;
+    		text-align: center;
+    	}
+    </style>
+
+    
+
+
+    <input id="button"  type="button" value="I'm finished!" onclick="check();">
+</form>
+<div id="after_submit">
+<p id="number_correct"></p>
+</div>
+
+</body>
+</html>
